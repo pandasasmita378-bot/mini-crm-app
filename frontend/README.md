@@ -4,7 +4,7 @@ Create an environment file: Create a file named .env in the backend directory an
 MONGO_URI=mongodb://localhost:27017/mini-crm
 
 # A secret key for signing JWT tokens
-JWT_SECRET=your_jwt_secret_key_here
+JWT_SECRET=a_very_secret_and_long_key_that_no_one_can_guess
 
 # The secret key for the initial Admin login
 ADMIN_SECRET_KEY=124356
